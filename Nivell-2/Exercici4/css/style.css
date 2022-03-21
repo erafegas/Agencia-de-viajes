@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: white;
+    font-weight: 800;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    height: 400px;
+    background-image: url(../img/header.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+}
+
+.headerLogo, .headerIcons {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.headerLogo img {
+    width: 75px;
+}
+
+.headerNav {
+    width: 60%;
+}
+
+.headerNav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerNav li {
+    padding: 0 20px;
+    list-style:none;
+}
+
+.headerNav li a {
+    color: grey;
+    text-decoration:none;
+    
+}
+
+.headerNav li a:hover {
+    color: orange;
+
+    
+}
+
+.headerIcons i {
+    cursor: pointer;
+    color: grey;
+    margin: 0 15px;
+    
+}
+
+.headerIcons i:hover {
+
+    color: rgba(30, 0, 199, 0.911);
+   
+    
+}
+
+
+.headerText {
+    width: 80%;
+    height: 130px;
+    background-color: rgba(128, 128, 128, 0.116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(255, 166, 0, 0.698);
+    font-size: 13px;
+}
+
