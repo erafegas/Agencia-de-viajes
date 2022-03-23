@@ -22,7 +22,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header {
@@ -72,8 +71,12 @@ header {
     margin: 0 15px;
 }
 
-.headerIcons i:hover {
-    color: rgba(30, 0, 199, 0.911);
+.headerIcons i:first-child:hover {
+    color: #38529A;
+}
+
+.headerIcons i:last-child:hover {
+    color: #009DEB;
 }
 
 
@@ -104,8 +107,8 @@ main {
 }
 
 .mainSection > article  {
-    width: 45%;
-    height:400px;
+    width: 47%;
+  
     margin: 0 10px;
     margin-top: 10px;
     background-color: #F5F1F1;
@@ -113,58 +116,32 @@ main {
     flex-direction: column;
 }
 
-
-
 .imgArticle {
     width:95%;
     height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(255, 255, 0, 0.658);
+}
+
+#imgArticle {
     background-image: url(../img/sakura.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: 10px;
-    display: flex;
-    align-items: flex-end;
-    color: rgba(255, 255, 0, 0.658);
 }
 
-.imgArticle1 {
-    width:95%;
-    height: 200px;
+#imgArticle1 {
     background-image: url(../img/comida.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: 10px;
-    display: flex;
-    align-items: flex-end;
-    color: rgba(255, 255, 0, 0.658);
 }
 
-.imgArticle2 {
-    width:95%;
-    height: 200px;
+#imgArticle2 {
     background-image: url(../img/fuji.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: 10px;
-    display: flex;
-    align-items: flex-end;
-    color: rgba(255, 255, 0, 0.658);
 }
 
-.imgArticle3 {
-    width:95%;
-    height: 200px;
+#imgArticle3 {
     background-image: url(../img/noche.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: 10px;
-    display: flex;
-    align-items: flex-end;
-    color: rgba(255, 255, 0, 0.658);
 }
 
 .titleArticle {
@@ -190,6 +167,7 @@ main {
     display: flex;
     margin: 0 auto;
     margin-top: 15px;
+    gap: 30px;
 }
 
 
@@ -205,6 +183,10 @@ main {
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 15px;
+}
+
+.linkArticle:hover {
+    color: orange;
 }
 
 .rightSection {
@@ -230,7 +212,6 @@ main {
 
 
 .mainSection > .textPostArticle {
-
     width: 95%;
     text-align: center;
     margin-top: 20px;
