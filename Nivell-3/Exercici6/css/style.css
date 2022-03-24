@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: white;
+    font-weight: 800;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    height: 400px;
+    background-image: url(../img/header.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+}
+
+.headerLogo, .headerIcons {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.headerLogo img {
+    width: 75px;
+    animation: rotate 3s;
+}
+
+@keyframes rotate {
+  from {  transform: rotate(90deg);}
+  50% {transform: rotate(180deg)} /* ignored */
+  to {transform: rotate(360deg)}
+}
+
+
+
+.headerNav {
+    width: 60%;
+}
+
+.headerNav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerNav li {
+    padding: 0 20px;
+    list-style:none;
+}
+
+.headerNav li a {
+    color: grey;
+    text-decoration:none;
+    
+}
+
+.headerNav li a:hover {
+    color: orange;
+}
+
+.headerIcons i {
+    cursor: pointer;
+    color: grey;
+    margin: 0 15px;
+}
+
+.headerIcons i:first-child:hover {
+    color: #38529A;
+}
+
+.headerIcons i:last-child:hover {
+    color: #009DEB;
+}
+
+
+.headerText {
+    width: 80%;
+    height: 130px;
+    background-color: rgba(128, 128, 128, 0.116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(255, 166, 0, 0.698);
+    font-size: 13px;
+    animation: move 3s;
+}
+
+@keyframes move {
+    from {opacity: 0;}
+    50% {opacity: 0.5;} /* ignored */
+    to {opacity: 1;}
+  }
+  
+
+main {
+    display: flex;
+    gap: 5px;
+    height: auto;
+}
+
+.mainSection {
+    width: 80%;
+    background-color: #D8D7D7;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainSection > article  {
+    width: 47%;
+    margin: 0 10px;
+    margin-top: 10px;
+    background-color: #F5F1F1;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgArticle {
+    width:95%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(255, 255, 0, 0.658);
+}
+
+#imgArticle {
+    background-image: url(../img/sakura.jpg);
+}
+
+#imgArticle1 {
+    background-image: url(../img/comida.jpg);
+}
+
+#imgArticle2 {
+    background-image: url(../img/fuji.jpg);
+}
+
+#imgArticle3 {
+    background-image: url(../img/noche.jpg);
+}
+
+.titleArticle {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3px;
+    height: 50px;
+    background-color:#F08080;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titleArticle h1 {
+    letter-spacing: 0.25em;
+    margin-left: 5px;
+}
+
+
+.descriptionArticle {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    gap: 30px;
+}
+
+
+.description1, .description2 {
+    width: 50%;
+}
+
+.linkArticle {
+        width: 95%;
+        height: auto;
+        text-decoration: none;
+        color: grey;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+.linkArticle:hover {
+    color: orange;
+}
+
+.rightSection {
+    width: 20%;
+    background-color: #D8D7D7;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rightSection > h3 {
+    margin-top: 20px;
+}
+
+.rightSection > h4 {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+.mainSection > .textPostArticle {
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+footer {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#D8D7D7 ;
+    text-align: center;
+}
+
+.footer {
+    width: 98%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+}
+
+.footer h4 {
+    padding: 5px;
+}
