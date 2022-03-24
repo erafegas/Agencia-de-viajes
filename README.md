@@ -1,10 +1,13 @@
 
-# 🔨 Practicing Responsive HTML and CSS Design (Flexbox)
+# Practicing Responsive HTML and CSS Design (Flexbox) 
 
-- HTML5 (header, main, footer)
-
+- HTML5 (elements, positions, measurements)
 - CSS3 (flexbox)
 
+# Additional tools :wrench:
+
+- FontAwesome 
+- Google Fonts
 
 # Demo Practice 1 :beginner:
 
