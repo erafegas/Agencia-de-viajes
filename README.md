@@ -1,5 +1,6 @@
-# Sprint1-Maquetacio
+# Sprint1
 
-https://youtu.be/XymnFM763sk
+# 🔨 Practicing Responsive HTML and CSS Design (Flexbox)
 
-# Aquests exercicis són per iniciar-se amb la maquetació web, HTML(HTML5,etiquetes en general) CSS(Flexbox, GridLayout)
+https://user-images.githubusercontent.com/12762083/159942952-da3e0960-327c-47e8-9593-b54e35b767d2.mp4
+
