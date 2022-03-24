@@ -6,7 +6,7 @@
 
 # Additional tools :wrench:
 
-- FontAwesome 
+- Font-awesome 
 - Google Fonts
 
 # Demo Practice 1 :beginner:
